@@ -8,7 +8,8 @@ public class MovieCollectionRunner
     // in the MovieCollection class then write some test code here to create
     // a new MovieCollection from the movies in the movies_data.csv file
     // ** USE THE CEREAL COLLECTION SAMPLE PROJECT TO HELP YOU! **
-
+    MovieCollection myMovies = new MovieCollection("src\\movies_data.csv");
+    myMovies.menu();
 
   }
 }
